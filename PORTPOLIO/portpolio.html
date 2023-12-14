@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="portpolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Open+Sans:ital,wght@1,300;1,600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: beige;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Playfair Display', serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(19, 19, 66);
+        }
+
+        nav u1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li .HOME {
+            font-size: 1.0rem;
+            color: aliceblue;
+        }
+
+        nav ul li .ABOUT {
+            color: aliceblue;
+            font-size: 1.0rem;
+        }
+
+
+
+
+
+
+        .left {
+            font-size: 3 rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+
+        }
+
+        .firstSection div {
+            width: 80%;
+        }
+
+        .leftSection {
+            font-size: 3.5rem;
+            margin: 30px 0;
+            width: 50%;
+        }
+
+        .rightSection img {
+
+            width: 70%;
+        }
+
+        .secondSection {
+
+            margin: 30px ;
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+        }
+
+        .secondSection div {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .thirdSection{
+            margin: 30px;
+        }
+
+
+        .thirdSection h1 {
+            font-size: 2rem;
+        }
+
+
+        .thirdSection .horizontal-title1 {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+
+        }
+
+        .thirdSection .horizontal-title2 {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+
+        }
+
+        .thirdSection .horizontal-title3 {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Oindrila's Portpolio</div>
+            <div class="right">
+                <u1>
+                    <li><a href="/"> HOME</a></li>
+                    <li><a href="/"> ABOUT</a></li>
+                    <li><a href="/"> CONTACT ME</a></li>
+                </u1>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                HI ,
+                <div>MY NAME IS OINDRILA KAR</div>
+                <div>AND I AM A </div>
+
+                <span id="element"></span>
+
+
+            </div>
+            <div class="rightSection">
+                <img src="bg1.jpg">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>ABOUT</h1>
+            <div></div>
+            <div>THIS IS OINDRILA KAR. I HAIL FROM ROURKELA , ODISHA . I HAVE COMPLETED MY MATRICULATION AND INTERMEDIATE
+                FROM St. JOSEPH's CONVENT SCHOOL , ROURKELA
+                CURRENTLY, I M PURSUING MY BACHELOR OF TECHNOLOGY FROM VEER SURENDRA SAI UNIVERSITY OF TECHNOLOGY BURLA
+                IN THE DEPARTMENT
+                OF MECHANICAL ENGINEERING.
+            </div>
+
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <h1> EDUCATION</h1>
+
+            <div class="box"></div>
+            <div class="horizontal">
+                <div class="horizontal-title1">St.JOSEPH's CONVENT SCHOOL
+                    MATRICULATION(2012-2020)
+                    GRADE- 90.6%</div>
+            </div>
+            <div class="horizontal">
+                <div class="horizontal-title2">St.JOSEPH's CONVENT SCHOOL
+                    INTERMEDIATE(2020-2022)
+                    GRADE- 93.4%</div>
+            </div>
+            <div class="horizontal">
+                <div class="horizontal-title3">VEER SURENDRA SAI UNIVERSITY OF TECHNOLOGY
+                    BTECH MECHANICAL(2022-2026)
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['WEB DEVELOPER', 'GRAPHIC DESIGNER'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+</html>

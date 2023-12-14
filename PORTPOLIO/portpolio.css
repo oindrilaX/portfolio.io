@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(79, 44, 203);
+    width: 20vw;
+}
+.main{
+    background-color: bisque;
+    width: 40vw;
+}
+.container{
+    display: flex;
+}
